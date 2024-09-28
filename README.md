@@ -7,4 +7,9 @@ For fine-tuning Wav2Vec2 for audio classification: [wav2vec_Emotion.py](https://
 
 The manifest for feeding wav data must be like [train_voice_emotion.csv](https://github.com/areffarhadi/Wav2vec2_audio_classification/blob/main/train_voice_emotion.csv) file.
 
+in addition we have [wav2vec_Emotion_specaugm.py](https://github.com/areffarhadi/Wav2vec2_audio_classification/blob/main/wav2vec_Emotion_specaugm.py) for utilizing SpecAugment as augmentation technique, [wav2vec_embeding.py](https://github.com/areffarhadi/Wav2vec2_audio_classification/blob/main/wav2vec_embeding.py) for extract and save feature embedings and [wav2vec_emb_score.py](https://github.com/areffarhadi/Wav2vec2_audio_classification/blob/main/wav2vec_emb_score.py) for extracting scores for each wav file.
+
+Please use [slurm_run.sh](https://github.com/areffarhadi/Wav2vec2_audio_classification/blob/main/slurm_run.sh) to run the scripts using Slurm.
+
+
 
