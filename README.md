@@ -1,4 +1,9 @@
 # Wav2vec2 audio classification
-In this repo, we can use the Wav2vec2 model for several scenarios, such as speaker identification, language recognition, emotion recognition, and more. 
+Using this script, we can implement several scenarios in audio classification, such as speaker identification, language recognition, emotion recognition, sentiment analysis and more, using Wav2vec2 and Whisper models. 
 
-Thanks to [Mehrdad Farahani](https://github.com/m3hrdadfi).
+For fine-tuning the Whisper model for audio classification: [Whisper_Emotion.py](https://github.com/areffarhadi/Wav2vec2_audio_classification/blob/main/Whisper_Emotion.py)
+For fine-tuning Wav2Vec2 for audio classification: [wav2vec_Emotion.py]([wav2vec_Emotion.py](https://github.com/areffarhadi/Wav2vec2_audio_classification/blob/main/wav2vec_Emotion.py))
+
+The manifest for feeding wav data must be like [train_voice_emotion.csv](https://github.com/areffarhadi/Wav2vec2_audio_classification/blob/main/train_voice_emotion.csv) file.
+
+
